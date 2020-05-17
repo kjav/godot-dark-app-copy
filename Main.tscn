@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://background.webp" type="Texture" id=1]
+[ext_resource path="res://overlay.webp" type="Texture" id=2]
+
+[node name="UnifiedMenu" type="Node2D"]
+
+[node name="StoneBackground" type="TextureRect" parent="."]
+margin_left = -101.0
+margin_top = -85.0
+margin_right = 878.0
+margin_bottom = 1522.0
+rect_scale = Vector2( 1.32, 1.32 )
+texture = ExtResource( 1 )
+stretch_mode = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SplashScreenTexture" type="TextureRect" parent="."]
+margin_top = -120.0
+margin_right = 1080.0
+margin_bottom = 1928.0
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
